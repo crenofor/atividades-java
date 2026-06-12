@@ -89,7 +89,7 @@ Estagiario = 5%
     
 # Nível 3 — Polimorfismo
 
-## Desafio 4: Zoológico
+## Desafio 3: Zoológico
 
 Classe abstrata:
 
@@ -129,3 +129,111 @@ Sem usar:
 if
 switch
 ```
+# Nível 4 — Interfaces
+
+## Desafio 4: Sistema de Pagamentos
+
+Interface:
+
+```java
+Pagamento
+```
+
+Método:
+
+```java
+pagar(double valor)
+```
+
+Implementações:
+
+```java
+Pix
+CartaoCredito
+Boleto
+```
+
+No programa:
+
+```java
+ArrayList<Pagamento>
+```
+
+Realize pagamentos de formas diferentes.
+
+### O que avalia
+
+- Interfaces
+    
+- Polimorfismo
+    
+
+---
+
+# Nível 5 — Tudo Misturado
+
+## Desafio 5: Loja Virtual
+
+Classes:
+
+```java
+Produto
+```
+
+Tipos:
+
+```java
+Livro
+Eletronico
+Roupa
+```
+
+Interface:
+
+```java
+Descontavel
+```
+
+Método:
+
+```java
+calcularDesconto()
+```
+
+Cada produto possui desconto diferente.
+
+Crie:
+
+```java
+Carrinho
+```
+
+Com:
+
+```java
+ArrayList<Produto>
+```
+
+Funcionalidades:
+
+- Adicionar produto
+    
+- Remover produto
+    
+- Calcular total
+    
+- Aplicar descontos
+    
+
+### O que avalia
+
+- Herança
+    
+- Interface
+    
+- Polimorfismo
+    
+- Coleções
+    
+- Encapsulamento
+    
