@@ -87,3 +87,45 @@ Estagiario = 5%
     
 - Sobrescrita de métodos
     
+# Nível 3 — Polimorfismo
+
+## Desafio 4: Zoológico
+
+Classe abstrata:
+
+```java
+Animal
+```
+
+Método:
+
+```java
+emitirSom()
+```
+
+Classes:
+
+```java
+Cachorro
+Gato
+Vaca
+```
+
+No main:
+
+```java
+ArrayList<Animal>
+```
+
+Percorra a lista chamando:
+
+```java
+animal.emitirSom();
+```
+
+Sem usar:
+
+```java
+if
+switch
+```
